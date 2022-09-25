@@ -15,6 +15,7 @@ A personal node package that turns a specific HTML element structure into an ani
                 ...
             </ul>
         </div>
+    </div>
     ```
 3. Call makeDropDown() passing the queried drop down element in as its parameter. For example, assuming you've stored the drop down element in a variable called "dropDownElement", you would call the function like this:
 ```javascript
