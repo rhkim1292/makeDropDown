@@ -1,6 +1,6 @@
 {
   "name": "@rndi/makedropdown",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A personal node package that turns a specific HTML element structure into an animated drop down menu.",
   "main": "index.js",
   "scripts": {
