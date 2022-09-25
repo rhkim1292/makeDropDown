@@ -4,6 +4,9 @@ exports.makeDropDown = function(divDropDown) {
     const ulDropDown = divDropDownContent.children[0];
     const listItemArray = ulDropDown.children;
 
-    ulDropDown.style.listStyleType = "none";
-    divDropDownContent.style.display = "none";
+    ulDropDown.style.listStyleType = 'none';
+    divDropDownContent.style.display = 'none';
+    dropBtn.addEventListener('hover', (e) => {
+        console.log('hovering drop down button');
+    });
 }
