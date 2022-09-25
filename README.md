@@ -2,7 +2,7 @@
 A personal node package that turns a specific HTML element structure into an animated drop down menu.
 
 ## How to use ##
-1. Make sure to import the makeDropDown function from makeDropDown.js using either require() or import().
+1. Make sure to import the makeDropDown function from the makedropdown package using import().
 2. In your Javascript file, query the html document for the drop down menu element.
     1. Your drop down menu element must have this structure:
     ```html
