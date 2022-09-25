@@ -5,4 +5,5 @@ exports.makeDropDown = function(divDropDown) {
     const listItemArray = ulDropDown.children;
 
     ulDropDown.style.listStyleType = "none";
+    divDropDownContent.style.display = "none";
 }
