@@ -6,7 +6,10 @@ exports.makeDropDown = function(divDropDown) {
 
     ulDropDown.style.listStyleType = 'none';
     divDropDownContent.style.display = 'none';
-    dropBtn.addEventListener('hover', (e) => {
+    dropBtn.addEventListener('mouseenter', (e) => {
         console.log('hovering drop down button');
+    });
+    dropBtn.addEventListener('mouseexit', (e) => {
+        console.log('stop hovering drop down button');
     });
 }

@@ -4,7 +4,13 @@
   "description": "A personal node package that turns a specific HTML element structure into an animated drop down menu.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "npmignore --auto"
+  },
+  "publishConfig": {
+    "ignore": [
+      "makeDropDown.code-workspace"
+    ]
   },
   "repository": {
     "type": "git",
