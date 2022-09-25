@@ -7,11 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepack": "npmignore --auto"
   },
-  "publishConfig": {
-    "ignore": [
-      "makeDropDown.code-workspace"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rhkim1292/makeDropDown.git"
@@ -26,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rhkim1292/makeDropDown/issues"
   },
-  "homepage": "https://github.com/rhkim1292/makeDropDown#readme"
+  "homepage": "https://github.com/rhkim1292/makeDropDown#readme",
+  "devDependencies": {
+    "npmignore": "^0.3.0"
+  }
 }

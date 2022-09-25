@@ -9,7 +9,7 @@ exports.makeDropDown = function(divDropDown) {
     dropBtn.addEventListener('mouseenter', (e) => {
         console.log('hovering drop down button');
     });
-    dropBtn.addEventListener('mouseexit', (e) => {
+    dropBtn.addEventListener('mouseleave', (e) => {
         console.log('stop hovering drop down button');
     });
 }
