@@ -1,5 +1,5 @@
 # makeDropDown
-A person node package that turns a specific HTML element structure into an animated drop down menu.
+A personal node package that turns a specific HTML element structure into an animated drop down menu.
 
 ## How to use ##
 1. Make sure to import the makeDropDown function from makeDropDown.js using either require() or import().
