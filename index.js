@@ -15,11 +15,9 @@ exports.makeDropDown = function(divDropDown) {
     ulDropDown.style.textAlign = 'center';
     divDropDownContent.style.display = 'none';
     dropBtn.addEventListener('mouseenter', (e) => {
-        console.log('hovering drop down button');
         divDropDownContent.style.display = 'block';
     });
     dropBtn.addEventListener('mouseleave', (e) => {
-        console.log('stop hovering drop down button');
         divDropDownContent.style.display = 'none';
     });
     divDropDownContent.addEventListener('mouseenter', (e) => {
